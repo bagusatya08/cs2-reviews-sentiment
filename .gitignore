@@ -189,6 +189,19 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
 
@@ -202,4 +215,4 @@ ipython_config.py
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
 
-# End of https://mrkandreev.name/snippets/gitignore-generator/#macOS,Python,Windows,JupyterNotebooks
+# End of https://mrkandreev.name/snippets/gitignore-generator/#macOS,Python,Windows,VirtualEnv,JupyterNotebooks
