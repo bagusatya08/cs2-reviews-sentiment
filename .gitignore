@@ -218,4 +218,4 @@ ipython_config.py
 # End of https://mrkandreev.name/snippets/gitignore-generator/#macOS,Python,Windows,VirtualEnv,JupyterNotebooks
 
 #Venv
-bigdata/
+bigdata/.env
